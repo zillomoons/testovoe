@@ -1,0 +1,8 @@
+.scrollContainer{
+    /*height: calc( 100vh - 210px);*/
+    overflow-y: scroll;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    padding: 15px;
+    width: 100%;
+}

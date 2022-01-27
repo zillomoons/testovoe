@@ -1,0 +1,30 @@
+.menu{
+    padding: 25px 15px;
+    background-color: lavender;
+    display: flex;
+    overflow:hidden;
+    width: 80px;
+    transition: .7s;
+}
+.menuColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 10px;
+}
+.menuIcon{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.menuItem{
+    margin-bottom: 15px;
+}
+.menu:hover{
+    width: 250px;
+}

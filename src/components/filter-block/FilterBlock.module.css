@@ -1,0 +1,20 @@
+.filter{
+    background-color: #dbfaff;
+    transition: .7s;
+}
+.filterHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+
+}
+.filterRow{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.filterRow div{
+    border-bottom: 2px solid;
+    width: 150px;
+}
